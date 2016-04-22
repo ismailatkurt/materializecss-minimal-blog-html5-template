@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Material Minimal Blog HTML Template</title>
+
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+
+  <link type="text/css" rel="stylesheet" href="sass/style.css" media="screen, projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+
+<div class="navbar-fixed">
+  <nav id="top-navigation">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo hide-on-med-and-up">Material Minimal Blog Template</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="category/sass">UI/UX</a></li>
+        <li><a href="category/components">Best Practices</a></li>
+        <li><a href="category/javascript">Javascript</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#">Navigation</a>
+          <hr/>
+        </li>
+        <li><a href="category/sass">UI/UX</a></li>
+        <li><a href="category/components">Best Practices</a></li>
+        <li><a href="category/javascript">Javascript</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<main class="container" id="main-content">
+  <header class="row heading">
+    <div class="col s12"><span class="flow-text"><h1
+        class="hide-on-small-only">Material Minimal Blog Template</h1></span></div>
+  </header>
+
+  <div class="articles">
+    <article class="flow-text">
+      <header>
+        <h2><a href="article.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h2>
+      </header>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat... <a href="#">Read more</a>
+    </article>
+    <hr/>
+    <article class="flow-text">
+      <header>
+        <h2><a href="article.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h2>
+      </header>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat... <a href="#">Read more</a>
+    </article>
+    <hr/>
+    <article class="flow-text">
+      <header>
+        <h2><a href="article.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h2>
+      </header>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat... <a href="#">Read more</a>
+    </article>
+    <hr/>
+    <article class="flow-text">
+      <header>
+        <h2><a href="article.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h2>
+      </header>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat... <a href="#">Read more</a>
+    </article>
+  </div>
+</main>
+
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h6 class="white-text">Contact</h6>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="full_name" type="text" class="validate">
+              <label for="full_name">Full Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="your_message" class="materialize-textarea"></textarea>
+              <label for="your_message">Your Message</label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h6 class="white-text">Join to newsletter</h6>
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email_for_newsletter" type="email" class="validate">
+              <label for="email_for_newsletter">Email</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+    </div>
+  </div>
+</footer>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bin/materialize.min.js"></script>
+
+<script>
+  $('.button-collapse').sideNav({
+        menuWidth: 300, // Default is 240
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      }
+  );
+</script>
+
+</body>
+</html>
