@@ -1,5 +1,5 @@
 # Materializecss Minimalist Blog HTML Template
 
-Tempalte is created by using [materializecss.com](materializecss.com)
+Template is created by using [materializecss.com](materializecss.com)
 
 Currently it has only index.html and article.html pages.
